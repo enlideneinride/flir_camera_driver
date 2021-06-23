@@ -350,7 +350,7 @@ void SpinnakerCamera::grabImage(sensor_msgs::Image* image, const std::string& fr
 
         // --------------------------------------------------
         // Set the image encoding
-        std::string imageEncoding = sensor_msgs::image_encodings::MONO8;
+        std::string imageEncoding = sensor_msgs::image_encodings::BAYER_RGGB16;
 
         Spinnaker::GenApi::CEnumerationPtr color_filter_ptr =
             static_cast<Spinnaker::GenApi::CEnumerationPtr>(node_map_->GetNode("PixelColorFilter"));

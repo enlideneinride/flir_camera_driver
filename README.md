@@ -35,6 +35,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## How to build
 
+To start off, Sinnaker SDK needs to be installed. This can be found at: https://www.flir.eu/products/spinnaker-sdk/
+
 ```
 mkdir -p YOUR_WORKSPACE/src
 cd YOUR_WORKSPACE/src

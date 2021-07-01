@@ -37,6 +37,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 To start off, Sinnaker SDK needs to be installed. This can be found at: https://www.flir.eu/products/spinnaker-sdk/
 
+A few ROS-packages also need to be installed:
+
+```
+$ sudo apt-get install ros-noetic-image-exposure-msgs ; sudo apt-get install ros-noetic-wfov-camera-msgs
+
+```
+
 ```
 mkdir -p YOUR_WORKSPACE/src
 cd YOUR_WORKSPACE/src
@@ -49,5 +56,5 @@ source devel/setup.bash
 ## To run FLIR-camera connected to USB along with rviz
 
 ```
-roslaunch spinnaker_camera_driver camera.cpp
+roslaunch spinnaker_camera_driver camera.launch
 ```

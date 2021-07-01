@@ -36,6 +36,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ## How to build
 
 To start off, Sinnaker SDK needs to be installed. This can be found at: https://www.flir.eu/products/spinnaker-sdk/
+Chose amd64 version and follow the instruction in the README contained in the tar.gz-file.
 
 A few ROS-packages also need to be installed:
 
